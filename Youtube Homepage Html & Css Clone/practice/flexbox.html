@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox</title>
+  <style>
+    .div {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .search-bar {
+      height: 30px;
+      width: 100%;
+      border-radius: 100px;
+      border-color: transparent;
+      font-size: 16px;
+      padding-left: 20px;
+    }
+
+    .button {
+      height: 30px;
+      width: 100px;
+      background-color: transparent;
+      border-style: solid;
+      border-color: white;
+      color: white;
+    }
+
+    .HomeLink {
+      margin-right: 10px;
+      margin-left: 10px;
+      color: white;
+      font-weight: bold;
+
+    }
+
+    .home {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body style="padding-top: 50px;
+">
+  <div style="
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(174, 101, 174);
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+    ">
+    <div class="HomeLink">
+      <a class="home" href="www.facebook.com">Home</a>
+    </div>
+    <div style="
+    margin-right: 20px;
+    margin-left: 20px;
+    flex: 1;
+    max-width: 500px;
+    ">
+      <input class="search-bar" type="text" placeholder="Search">
+    </div>
+    <div style="
+    margin-right: 10px;
+    ">
+      <button class="button">Download</button>
+    </div>
+  </div>
+</body>
+
+</html>
