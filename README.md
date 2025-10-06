@@ -33,8 +33,7 @@ techniques and apply them in a slightly larger UI.
 
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone &lt;your-repo-url&gt;.git
-cd &lt;your-repo-folder&gt;</code></pre>
+    <pre><code>https://github.com/morakib321/Youtube-Homepage-HTML-CSS-Clone</code></pre>
   </li>
   <li>Open any HTML file in your browser (no build step required):
     <ul>
